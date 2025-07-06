@@ -70,14 +70,14 @@ def protect_files(input_folder, output_folder, password):
                             writer.add_page(page)
 
                         writer.encrypt(password)
-                        output_file = os.path.join(output_path, f"encrypted_{filename}")
+                        output_file = os.path.join(output_path, f"{filename}")
 
                         with open(output_file, "wb") as f:
                             writer.write(f)
 
                     elif file_ext in {'.xlsx', '.xls'}:
                         # Process Excel file
-                        output_file = os.path.join(output_path, f"encrypted_{filename}")
+                        output_file = os.path.join(output_path, f"{filename}")
                         encrypt_excel(input_path, output_file, password)
 
                     processed_files.append(input_path)
