@@ -20,12 +20,12 @@ pip install msoffcrypto-tool
 ## Usage
 
 ```bash
-python fileprotector.py <input_folder> <password>
+fileprotector <input_folder> <password>
 ```
 
 Example:
 ```bash
-python fileprotector.py "C:\Users\Documents\Reports" MySecurePassword123
+fileprotector "C:\Users\Documents\Reports" MySecurePassword123
 ```
 
 This will:
