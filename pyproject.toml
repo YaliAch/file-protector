@@ -1,6 +1,6 @@
 [project]
 name = "fileprotector"
-version = "0.1.0"
+version = "0.1.2"
 description = "Encrypt PDF and Excel files in bulk using a password"
 authors = [{ name = "Yali Achitov" }]
 readme = "README.md"

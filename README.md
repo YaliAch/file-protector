@@ -1,6 +1,6 @@
 # File Protector
 
-A Python script for batch encrypting PDF and Excel files while maintaining folder structure.
+A cross-platform CLI tool to batch encrypt PDF and Excel files with password protection, while preserving the original folder structure.
 
 ## Features
 
@@ -10,11 +10,12 @@ A Python script for batch encrypting PDF and Excel files while maintaining folde
 - Creates a new "Protected" folder with the original folder name
 - Provides detailed operation summary and skipped files report
 
-## Prerequisites
+## Installation
+
+Install globally using pip:
 
 ```bash
-pip install PyPDF2
-pip install msoffcrypto-tool
+pip install fileprotector
 ```
 
 ## Usage
@@ -24,6 +25,7 @@ fileprotector <input_folder> <password>
 ```
 
 Example:
+
 ```bash
 fileprotector "C:\Users\Documents\Reports" MySecurePassword123
 ```
